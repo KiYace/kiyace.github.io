@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Главная</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/oznak.css">
+</head>
+<body>
+<div class="navad">
+<a href="#" class="button" onclick="javascript:showElement('v-menu')">
+<img src="images/menu.png">
+</a>
+<ul id="v-menu" class="v-menu" style="display:none;">
+<li><a href="pages/glav.html">Главная</a></li>
+<li><a href="pages/soft.html">Программы</a></li>
+<li><a href="pages/basis.html">Основы</a></li>
+<li><a href="pages/figures.html">Деятели</a></li>
+<li><a href="pages/buy.html">Заказ работ</a></li>
+</ul>
+</div>
+<script type="text/javascript">
+function showElement(layer){
+var myLayer = document.getElementById(layer);
+if(myLayer.style.display=="none"){
+ myLayer.style.display="block";
+ myLayer.backgroundPosition="top";
+ } else { 
+ myLayer.style.display="none";
+ }
+}
+</script>
+<div class="nav">
+<ul>
+<li><a href="pages/glav.html">Главная</a></li>
+<li><a href="pages/soft.html">Программы</a></li>
+<li><a href="pages/basis.html">Основы</a></li>
+<li><a href="pages/figures.html">Деятели</a></li>
+<li><a href="pages/buy.html">Заказ работ</a></li>
+</ul>
+</div>
+<div class="pic2"><a href="https://vk.com/lyybb"><img src="images/VK.png" width="28px" height="28px"></a></div>
+<div class="pic1"><a href="https://www.youtube.com/channel/UCwGUnq3_LwfftAUbYD0gE_Q"><img src="images/YouTube.png" width="40px" height="28px"></a></div>
+<div class="headtext">
+<a>Видеомонтаж</a>
+</div>
+<div class="text">
+<a>Видеомонтаж - это искусство, <br>
+в результате которого появляется видеофильм,<br>
+ рекламный, документальный, <br>мультипликационный-какой угодно.</a>
+</div>
+<div class="button1"><a href="pages/glav.html" title="На главную страницу">Начать обучение</a></div>
+<div class="pic3"><img src="images/main/Mac.png"></div>
+<div class="pic4"><img src="images/main/pic6.png"></div>
+</body>
+</html>

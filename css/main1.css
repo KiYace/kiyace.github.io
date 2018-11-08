@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
+*, *:before, *:after{transition:.3s linear}
+ul {
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: black;
+}
+.nav li {
+color: white;
+display: inline;
+}
+.nav li:first-child {
+color: white;
+margin-right:9em;
+}
+.nav ul {
+width: 100%;
+padding-bottom: 1em;
+padding-top: 1em;
+background: rgba(0,0,0,0.8);
+}
+.nav li:last-child {
+color: white;
+margin-right:0em;
+}
+.nav a {
+color: white;
+padding: 1em;
+margin-left: 1.25em;
+margin-right: 1.25em;
+}
+.nav a:hover {
+color: rgb(205, 205, 205);
+}
+.nav {
+text-align: right;
+}
+body {
+margin: 0;
+max-width:100%;
+background-attachment:fixed;
+font-family: 'Roboto Slab', serif;
+}
+.pic1 {
+max-width:100%;
+height:auto;
+position:absolute;
+top: 0.875em;
+left: 0.938em;
+}
+.pic2 {
+position:absolute;
+top: 0.875em;
+left:3.75em;
+}
+.button:hover {
+transform: scale(1.2);
+}
+.button{
+text-align:center;
+}
+.button a {
+text-decoration: none;
+}
+.zag {
+max-width:100%;
+display:flex;
+background-color: #F5F5F5;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+align-items:center;
+max-height:100%;
+}
+.headtext1 {
+font-size: 300vw;
+}
+.text span{
+font-size: 200vw;
+}
+.pic3 img{
+max-width: 100%;
+max-height:85%;
+}
+.ae {
+margin-top: 1%;
+margin-left:1%;
+width:48.5%;
+display:inline-flex;
+background-image: url(..//images/glav/ae.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: flex-start;
+flex-direction: column;
+align-items:center;
+height:55%;
+}
+.ap {
+margin-top: 1%;
+margin-left:1%;
+width:48.5%;
+display:inline-flex;
+background-image: url(..//images/glav/ap.jpg);
+background-repeat: no-repeat;
+background-position:center top;
+background-size:cover;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height:55%;
+}.cut {
+margin-top: 1%;
+margin-left:1%;
+width:48.5%;
+display:inline-flex;
+background-image: url(..//images/glav/cut.jpg);
+background-repeat: no-repeat;
+background-position:left;
+background-size:cover;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height:55%;
+}
+.basis {
+margin-top: 1%;
+margin-left:1%;
+width:48.5%;
+display:inline-flex;
+background-image: url(..//images/glav/basis.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height:55%;
+}
+.headtext2 {
+font-size: 300vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 15.3%;
+}
+.headtext3 {
+font-size: 300vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 16.2%;
+}
+.headtext4 {
+font-size: 300vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 16.1%;
+}
+.headtext5 {
+font-size: 300vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 6.4%;
+}
+.text2 {
+font-size: 200vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 18.5%;
+}
+.text1 {
+font-size: 200vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 7.4%;
+}
+.text4 {
+font-size: 200vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 27.4%;
+}
+.text3 {
+font-size: 200vw;
+color: white;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 0 13.9%;
+}
+.foot {
+margin-top: 1%;
+width:100%;
+display:inline-flex;
+background-image: url(..//images/glav/figures.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+height:100%;
+color: white;
+}
+.softal {
+width: 50%;
+}
+.headtextsoft {
+font-size: 300vw;
+text-transform:uppercase;
+}
+.textae {
+margin-top:-2%;
+font-size: 200vw;
+}
+.textae2 {
+font-size:100vw;
+word-wrap:break-word;
+margin-right:15%;
+}
+.ae2 {
+margin-top:1%;
+max-width:100%;
+display:flex;
+background-image: url(..//images/soft/ae.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: center;
+flex-direction: column;
+align-items:flex-end;
+height:70%;
+color:white;
+}
+.app2 {
+margin-top:1%;
+max-width:100%;
+display:flex;
+background-image: url(..//images/soft/ap.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: center;
+flex-direction: column;
+align-items:flex-end;
+height:70%;
+color:white;
+}
+.cut2 {
+margin-top:1%;
+max-width:100%;
+display:flex;
+background-image: url(..//images/soft/cut.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size:cover;
+justify-content: center;
+flex-direction: column;
+align-items:flex-end;
+height:70%;
+color:white;
+}
+.zagae {
+margin-top: 1%;
+max-width:100%;
+display:flex;
+background: url(..//images/ae/ae.jpg);
+justify-content: center;
+flex-direction: column;
+align-items:center;
+max-height:120%;
+color: white;
+}
+.aeal {
+width: 70%;
+text-align:center;
+}
+.headtextae {
+margin-top:5%;
+font-size: 400vw;
+}
+.textae span{
+font-size: 110vw;
+}
+.video {
+margin-top:5%;
+display:flex;
+align-items:flex-start;
+justify-content: center;
+margin-bottom:10%;
+}
+.video video {
+margin-top:1%;
+width:90%;
+height:60%;
+}
+.contentae {
+width:100%;
+display:flex;
+background-color: black;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+color: white;
+}
+.headtextae2 {
+margin-top:5%;
+font-size: 200vw;
+text-align:center;
+}
+.textae2 span{
+font-size: 100vw;
+text-align:center;
+}
+.aeal2 {
+margin-top:5%;
+width: 95%;
+display:flex;
+flex-direction:row;
+text-align:center;
+justify-content:center;
+align-items:flex-start;
+}
+.picae {
+flex-wrap: nowrap;
+}
+.picae img{
+width:90%;
+max-height:70%;
+}
+.secondae {
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+width:50%;
+height:70%;
+}
+.headtextae3 {
+font-size: 200vw;
+}
+.textae3 {
+	flex-wrap:nowrap;
+font-size: 100vw;
+}

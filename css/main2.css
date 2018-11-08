@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
+*, *:before, *:after{transition:.3s linear}
+ul {
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+}
+.nav li {
+color: white;
+display: inline;
+}
+.nav li:first-child {
+color: white;
+margin-right: 10em;;
+}
+.nav ul {
+margin-top:-0.4em;
+padding: 1em;
+margin-left:-6.25em;
+margin-right:-0.5px;
+background: rgba(0,0,0,0.8);
+}
+.nav a {
+color: white;
+padding: 1em;
+margin-left: 1.25em;
+margin-right: 1.25em;
+}
+.nav a:hover {
+color: rgb(205, 205, 205);
+}
+.nav {
+text-align: right;
+}
+body {
+background-attachment:fixed;
+font-family: 'Roboto Slab', serif;
+background-image: url(../images/main/fon.jpg);
+background-size: cover;
+max-width:100%;
+max-height:100%;
+}
+.pic1 {
+display:block;
+position:relative;
+top: -4.25em;
+left: 0.938em;
+max-width:100%;
+}
+.pic2 {
+display:block;
+position:relative;
+top: -2.5em;
+left:3.75em;
+max-width:100%;
+}
+.pic3 {
+display:block;
+background-image: url(..//images/Mac.png);
+display: block;
+width: 29.625em;
+height:22.188em;
+position:relative;
+bottom: 6em;
+right: -50em;
+max-width:100%;
+}
+.pic4 {
+display:block;
+background-image: url(..//images/pic4.png);
+display: block;
+width: 17.500em;
+height:12.500em;
+position:absolute;
+bottom: 0em;
+right: 28.125em;
+max-width:100%;
+}
+.Headtext {
+position:relative;
+font-size: 3.125em;
+color: white;
+text-shadow: black 0 0 5px;
+top: 1em;
+left: 3em;
+}
+.text {
+position:relative;
+font-size: 1.563em;
+color: white;
+text-shadow: black 0 0 0.313em;
+top: 2em;
+left: 6em;
+text-align: justify;
+}
+.button {
+position:relative;
+padding: 1em 2em;
+border: 0.25em solid white;
+border-radius: 2em;
+left: 8em;
+top: 5em;
+color: white;
+font-size: 1.3em;
+cursor: pointer;
+width:9em;
+}
+.button:hover {
+transform: scale(1.2);
+}
+.button a {
+text-decoration: none;
+}
+A {
+color: white; /* Цвет ссылок */
+}
+a:visited {
+color: white; /* Цвет посещенных ссылок */
+}
+a:active {
+color: white; /* Цвет активных ссылок */
+}

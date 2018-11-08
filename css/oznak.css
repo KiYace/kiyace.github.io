@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab|PT+Sans+Caption&subset=latin,cyrillic);
+*, *:before, *:after{transition:.3s linear}
+ul {
+list-style: none;
+margin: 0;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+}
+.nav li {
+color: white;
+display: inline;
+}
+.nav li:first-child {
+color: white;
+margin-right:9em;
+}
+.nav ul {
+width: 100%;
+padding-bottom: 1em;
+padding-top: 1em;
+background: rgba(0,0,0,0.8);
+}
+.nav li:last-child {
+color: white;
+margin-right:0em;
+}
+.nav a {
+color: white;
+padding: 1em;
+margin-left: 1.25em;
+margin-right: 1.25em;
+}
+.nav a:hover {
+color: rgb(205, 205, 205);
+}
+.nav {
+text-align: right;
+}
+body {
+margin: 0;
+max-width:100%;
+background-attachment:fixed;
+font-family: 'Roboto Slab', serif;
+background-image: url(../images/main/fon.jpg);
+background-size: cover;
+}
+.pic1 {
+max-width:100%;
+height:auto;
+position:absolute;
+top: 0.875em;
+left: 0.938em;
+}
+.pic2 {
+position:absolute;
+top: 0.875em;
+left:3.75em;
+}
+.Headtext {
+position:relative;
+display: block;
+font-size: 3.125em;
+color: white;
+text-shadow: black 0 0 0.313em;
+top: 10%;
+left: 10%;
+max-width:40%;
+}
+.Headtext a{
+font-size:3.5vw;
+}
+.text {
+position:relative;
+display: block;
+font-size: 1.563em;
+color: white;
+text-shadow: black 0 0 0.313em;
+top: 10%;
+left: 10%;
+text-align: justify;
+max-width:50%;
+}
+.text a{
+font-size:1.7vw;
+}
+.button1 {
+position:relative;
+display: flex;
+padding: 1em 2em;
+border: 0.250em solid white;
+border-radius: 2em;
+left: 20%;
+top: 15%;
+color: white;
+font-size: 1.3em;
+cursor: pointer;
+width:15%;
+text-align:center;
+}
+.button1 a{
+font-size:1.7vw;
+}
+.button1:hover {
+transform: scale(1.2);
+}
+.pic3 img{
+max-width:35%;
+max-height:55%;
+position:absolute;
+left: 60%;
+bottom:0%;
+}
+.pic4 img{
+max-width:25%;
+max-height:35%;
+position:absolute;
+left:50%;
+bottom: 0%;
+}
+A {
+color: white;
+}
+a:visited {
+color: white;
+}
+a:active {
+color: white;
+}
+.button1 a {
+text-decoration: none;
+}
+.navad {
+width: 100%;
+padding-bottom: 1em;
+padding-top: 1em;
+background: rgba(0,0,0,0.8);
+display:none
+}
+.v-menu ul{
+background: rgba(0,0,0,0.8);
+display:none
+}
+.navad img{
+width:5%;
+height:5%;
+}
+@media screen and (max-width: 1280px) {
+.nav {
+display:none
+}
+.pic1 {
+display:none;
+}
+.pic2 {
+display:none;
+}
+.navad {
+display:block;
+}
+.navad li {
+color: white;
+display: block;
+padding: 1%;
+}
+.navad a {
+color: white;
+}
+.navad a:hover {
+color: rgb(205, 205, 205);
+}
+}
+@media only screen and (max-width:460px) {
+.button1 {
+padding: 3% 7%;
+}
+}
