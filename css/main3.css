@@ -512,13 +512,13 @@ height:75%;
 height:75%;
 }
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:1000px) {
 .aeal2 {
 width: 100%;
-height:23%;
+height:30%;
 }
 .picae img{
-height:50%;
+height:70%;
 }
 .aeal {
 height:10%;
@@ -528,7 +528,7 @@ width:80%;
 height:40%;
 }
 .zagapp {
-height:40%;
+height:43%;
 }
 .app2 {
 height:30%;
@@ -563,5 +563,59 @@ height:30%;
 }
 .foot {
 height:30%;
+}
+.headtext2 {
+font-size: 4vw;
+}
+.headtext3 {
+font-size: 4vw;
+}
+.headtext4 {
+font-size: 4vw;
+}
+.headtext5 {
+font-size: 4vw;
+}
+.headtext1 {
+font-size: 4vw;
+}
+.headtextz {
+font-size: 6vw;
+}
+.headtextae2 {
+font-size: 2.3vw;
+}
+.textae1 {
+font-size: 2vw;
+}
+.headtextae3 {
+font-size: 2.3vw;
+}
+.textae3 {
+font-size: 2vw;
+}
+.textsoft {
+font-size: 2vw;
+}
+.textsoft2 {
+font-size: 2vw;
+}
+.text1 {
+font-size: 2.7vw;
+}
+.text2 {
+font-size: 2.7vw;
+}
+.text3 {
+font-size: 2.7vw;
+}
+.text4 {
+font-size: 2.7vw;
+}
+.text {
+font-size: 2.7vw;
+}
+.textz {
+font-size: 3.7vw;
 }
 }
