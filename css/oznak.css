@@ -180,6 +180,12 @@ text-align:center;
 .Headtext a{
 font-size:6.9vw;
 }
+.pic3 {
+display: none;
+}
+.pic4 {
+display: none;
+}
 .text a{
 font-size:5vw;
 text-align: left;
